@@ -1,5 +1,5 @@
 import streamlit as st
-import datetime
+
 
 '''
 # TaxiFareModel front
@@ -33,9 +33,6 @@ See ? No need to load a `model.joblib` file in this app, we do not even need to 
 
 url = 'https://mimilicious-jpkizmdg6a-ew.a.run.app/predict'
 
-if url == 'https://mimilicious-jpkizmdg6a-ew.a.run.app/predict':
-
-    st.markdown('Maybe you want to use your own API for the prediction, not the one provided by Le Wagon...')
 
 '''
 
