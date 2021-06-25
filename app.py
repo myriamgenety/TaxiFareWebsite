@@ -49,11 +49,11 @@ if url == 'https://mimilicious-jpkizmdg6a-ew.a.run.app/predict':
 '''
 
 #Let's build a dictionary containing the parameters for our API...
-params = {
-'date and time': [st.date_input(datetime.date(2019, 7, 6)), st.time_input(datetime.time(8, 45))]
-'pickup longitude': [st.number_input()]
-'pickup latitude': [st.number_input()]
-'dropoff longitude': [st.number_input()]
-'dropoff latitude': [st.number_input()]
-'passenger count': [st.number_input()]
-}
+# params = {
+# 'date and time': [st.date_input(datetime.date(2019, 7, 6)), st.time_input(datetime.time(8, 45))]
+# 'pickup longitude': [st.number_input()]
+# 'pickup latitude': [st.number_input()]
+# 'dropoff longitude': [st.number_input()]
+# 'dropoff latitude': [st.number_input()]
+# 'passenger count': [st.number_input()]
+# }
